@@ -1,0 +1,30 @@
+header i {
+    display: flex;
+    color: #ffffff;
+    font-size: 20px;
+
+}
+
+header i::before {
+    line-height: 46px;
+    padding: 0 20px;
+}
+
+header i:hover {
+    color: #1a1818;
+    background-color: #eeebeb;
+}
+
+header i:hover .menu {
+    display: block;
+}
+
+
+header nav ul {
+    display: none;
+    position: absolute;
+    top: 46px;
+    right: 10px;
+    background-color: #0000004f;
+
+}
