@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang bán điện thoại - Sản phẩm điện thoại</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/phone.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+            <div class="container">
+                <a class="navbar-brand" href="./index.html" target="_blank"><img src="./img/logo/logo (1).png"
+                        alt="logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="./phone.html">
+                                Sản phẩm
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Giới thiệu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Liên hệ</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div id="navbarOverlay" class="navbar-overlay"></div>
+    </header>
+    <main>
+        <ul>
+            <li><a class="dropdown-item" href="#" onclick="showIphoneProducts()">Điện thoại
+                    iPhone</a></li>
+            <li><a class="dropdown-item" href="#" onclick="showSamsungProducts()">Điện thoại
+                    Samsung</a></li>
+        </ul>
+        <section class="container my-5">
+            <h2 id="categoryTitle" class="text-center mb-4">Tất cả điện thoại</h2>
+            <div id="iphoneProducts" class="row">
+                <div class="col-md-4">
+                    <div class="product-card card">
+                        <img src="iphone1.jpg" class="card-img-top" alt="iPhone 1">
+                        <div class="card-body">
+                            <h5 class="card-title">iPhone 1</h5>
+                            <p class="card-text">Mô tả iPhone 1.</p>
+                            <a href="#" class="btn btn-primary">Chi tiết</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="product-card card">
+                        <img src="iphone2.jpg" class="card-img-top" alt="iPhone 2">
+                        <div class="card-body">
+                            <h5 class="card-title">iPhone 2</h5>
+                            <p class="card-text">Mô tả iPhone 2.</p>
+                            <a href="#" class="btn btn-primary">Chi tiết</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="product-card card">
+                        <img src="iphone3.jpg" class="card-img-top" alt="iPhone 3">
+                        <div class="card-body">
+                            <h5 class="card-title">iPhone 3</h5>
+                            <p class="card-text">Mô tả iPhone 3.</p>
+                            <a href="#" class="btn btn-primary">Chi tiết</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="samsungProducts" class="row d-none">
+                <div class="col-md-4">
+                    <div class="product-card card">
+                        <img src="samsung1.jpg" class="card-img-top" alt="Samsung 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Samsung 1</h5>
+                            <p class="card-text">Mô tả Samsung 1.</p>
+                            <a href="#" class="btn btn-primary">Chi tiết</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="product-card card">
+                        <img src="samsung2.jpg" class="card-img-top" alt="Samsung 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Samsung 2</h5>
+                            <p class="card-text">Mô tả Samsung 2.</p>
+                            <a href="#" class="btn btn-primary">Chi tiết</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="product-card card">
+                        <img src="samsung3.jpg" class="card-img-top" alt="Samsung 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Samsung 3</h5>
+                            <p class="card-text">Mô tả Samsung 3.</p>
+                            <a href="#" class="btn btn-primary">Chi tiết</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
